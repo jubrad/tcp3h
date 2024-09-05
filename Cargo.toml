@@ -1,0 +1,10 @@
+[package]
+name = "tcp3h"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4" }
+proxy-header = "0.1"
+anyhow = "1.0"
